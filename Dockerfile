@@ -6,17 +6,19 @@ WORKDIR /app
 
 # Copy the requirements.txt and install dependencies
 COPY requirements.txt /app/
+
+# Install dependencies 
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the project files into the container
 COPY . /app/
 
-# Copy the .pkl files into the container
-COPY sorted_covariance.pkl /app/
-COPY universe_covariance.pkl /app/
+# Copy the smaller .pkl files into the container
+COPY new_sorted_covariance.pkl /app/
+COPY new_sorted_industries.pkl /app/
 
 # Expose the port the app will run on
 EXPOSE 8050
 
 # Define the command to run the app
-CMD ["python", "more_test.py"]
+CMD ["python", "final_dash.py"]
