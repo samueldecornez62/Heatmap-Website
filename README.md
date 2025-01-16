@@ -2,7 +2,7 @@
 
 This project visualizes covariance matrices of stock returns, building upon my other [Black-Litterman-Implied-Covariance project](https://github.com/samueldecornez62/Black-Litterman-Implied-Covariance) for its data source. The application works well on local devices but is not yet publicly deployable.  
 
-This website allows users to select any (multiple can be selected at the same time) of the given industries that subdivide this universe of 9,782 stocks from a dropdown menu. The covariance matrix for the associated stocks will then be displayed on the page. 
+This website allows users to select one or more industries from the dropdown menu that subdivide this universe of 9,782 stocks from a dropdown menu. The covariance matrix for the associated stocks will then be displayed on the page. See above-linked project for detailed explanation of industry classification. 
 
 You can zoom into any section of the matrix by dragging your cursor over the desired region. Hovering your mouse over any cell indicates which specific stocks are being viewed, and the value of the covariance. There is also a button to reset the zoom.
 
