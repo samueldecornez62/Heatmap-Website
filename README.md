@@ -6,7 +6,7 @@ This website allows users to select one or more industries from the dropdown men
 
 You can zoom into any section of the matrix by dragging your cursor over the desired region. Hovering your mouse over any cell indicates which specific stocks are being viewed, as well as the value of the covariance. There is also a button to reset the zoom.
 
-There is also a second dropdown menu that changes the color palette used to display the matrices. 
+Additionally, there is a second dropdown menu that changes the color palette used to display the matrices. 
 
 Lastly, the website displays CSV file download buttons to download the data in the matrices. These download links appear below the matrices, in order they are displayed. The download links currently do not work even locally, since the website is not yet fully public (see below for more details). 
 
