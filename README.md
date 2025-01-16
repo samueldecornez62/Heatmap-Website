@@ -2,6 +2,14 @@
 
 This project visualizes covariance matrices of stock returns, building upon my other [Black-Litterman-Implied-Covariance project](https://github.com/samueldecornez62/Black-Litterman-Implied-Covariance) for its data source. The application works well on local devices but is not yet publicly deployable.  
 
+This website allows users to select any (multiple can be selected at the same time) of the given industries that subdivide this universe of 9,782 stocks from a dropdown menu. The covariance matrix for the associated stocks will then be displayed on the page. 
+
+You can zoom into any section of the matrix by dragging your cursor over the desired region. Hovering your mouse over any cell indicates which specific stocks are being viewed, and the value of the covariance. There is also a button to reset the zoom.
+
+There is also a second dropdown menu that changes the color palette used to display the matrices. 
+
+Lastly, the website displays CSV file download buttons to download the data in the matrices. These download links appear below the matrices, in order they are displayed. The download links currently do not work even locally, since the website is not yet fully public (see below for more details). 
+
 **To run the visualization locally:**  
 1. Install all files into the same directory.  
 2. Open the command prompt, navigate to the folder, and run:
@@ -38,7 +46,7 @@ This folder contains older iterations and test versions. It is not necessary and
 - **Current status:**
   The visualization app functions well locally but has not been fully deployed as a public website.
 - **Next Steps:**
-  Deploying the app publicly using final_dash.py, Docker to create a container able to store the full sized large pickle files, and Heroku for deployment, remains the goal. 
+  Deploying the app publicly using final_dash.py, Docker to create a container able to store the full sized large pickle files, and Heroku for deployment, remains the goal. Once the website is deployed successfully, the data will be stored directly on the website through the Docker container, and the CSV download links should work correctly. 
 
 
 
