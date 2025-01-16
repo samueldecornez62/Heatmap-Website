@@ -1,6 +1,6 @@
 # Covariance Matrix Visualization  
 
-This project visualizes covariance matrices of stock returns, building upon the [Black-Litterman-Implied-Covariance project](https://github.com/samueldecornez62/Black-Litterman-Implied-Covariance) for its data source. The application works well on local devices but is not yet publicly deployable.  
+This project visualizes covariance matrices of stock returns, building upon my other [Black-Litterman-Implied-Covariance project](https://github.com/samueldecornez62/Black-Litterman-Implied-Covariance) for its data source. The application works well on local devices but is not yet publicly deployable.  
 
 **To run the visualization locally:**  
 1. Install all files into the same directory.  
