@@ -30,7 +30,7 @@ This project visualizes covariance matrices of stock returns, building upon my o
 - ```Dockerfile```: Contains all setup instructions for building a containerized version of the app, including installing dependencies, copying files, exposing ports, and running the app.
 
 ### App Progress and Tests Folder
-This folder contains older iterations and test versions. It is not relevant for users and can be ignored.
+This folder contains older iterations and test versions. It is not necessary and can be ignored.
 
 
 
