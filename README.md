@@ -1,3 +1,11 @@
+<div align="center">
+  <img src="hero.gif" alt="Interactive covariance heatmap demo" width="820">
+</div>
+
+*Interactive Dash app to explore implied covariance heatmaps across industries and sub-industries.*
+
+
+
 # Covariance Matrix Visualization  
 
 This project visualizes covariance matrices of stock returns, building upon my other [Black-Litterman-Implied-Covariance project](https://github.com/samueldecornez62/Black-Litterman-Implied-Covariance) for its data source. The application works well on local devices but is not yet publicly deployable.  
