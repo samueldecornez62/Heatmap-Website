@@ -4,7 +4,7 @@
 
 *Interactive Dash app to explore implied covariance heatmaps across industries and sub-industries.*
 
-
+---
 
 # Covariance Matrix Visualization  
 
